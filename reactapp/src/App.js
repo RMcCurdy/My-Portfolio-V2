@@ -16,11 +16,12 @@ function App() {
     return (
         <AppState>
             <Router>
-                <Navbar />
-                <Routes>
+                {/* <Navbar /> */}
+                <Home />
+                {/* <Routes>
                     <Route exact path='/' element={<Home />} />
                     <Route component={PageNotFound} />
-                </Routes>
+                </Routes> */}
             </Router>
         </AppState>
     );
