@@ -18,14 +18,14 @@ const RobertAnimation = () => {
             } else {
                 setIndex(index + 1);
             }
-        }, 50);
+        }, 100);
         return () => clearInterval(interval);
     }, [index]);
 
     return (
-        <div>
+        <div className='robert-container-animation'>
             <img
-                style={{ width: '200px' }}
+                style={{ width: '150px' }}
                 src={imgArray[index]}
                 alt='walkingRobert'
             />
