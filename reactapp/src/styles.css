@@ -1,9 +1,30 @@
+/* This ensures there are no margins added by default */
 html,
 body {
     margin: 0;
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
+}
+
+/* ========== Colors ========== */
+
+:root {
+    --green: rgb(226, 240, 203);
+}
+
+/* Variants of the Rubik font to be used in font-family style */
+@font-face {
+    font-family: 'Rubik-S';
+    src: url('./fonts/Rubik-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('./fonts/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-L';
+    src: url('./fonts/Rubik-Medium.ttf') format('truetype');
 }
 
 .navbar-container {
@@ -21,10 +42,30 @@ body {
     border-bottom: 1px solid var(--agahi-gray);
 }
 
+.home-container {
+    min-height: 100vh;
+    background-color: var(--green);
+    margin-top: 64px;
+}
+
+.home-title-container {
+    position: absolute;
+    display: block;
+}
+
+.home-title-font {
+    font-family: 'Rubik-L';
+    font-size: 2.5rem;
+}
+
 .robert-container-animation {
     position: absolute;
-    animation-duration: 25s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
     animation-name: rca;
+    margin-left: 60%;
+    margin-top: 15%;
+    overflow: hidden;
 }
 
 @keyframes rca {
@@ -32,6 +73,6 @@ body {
         margin-left: 100%;
     }
     to {
-        margin-left: 0%;
+        margin-left: 60%;
     }
 }

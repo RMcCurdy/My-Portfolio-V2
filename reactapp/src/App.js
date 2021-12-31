@@ -16,7 +16,7 @@ function App() {
     return (
         <AppState>
             <Router>
-                {/* <Navbar /> */}
+                <Navbar />
                 <Home />
                 {/* <Routes>
                     <Route exact path='/' element={<Home />} />

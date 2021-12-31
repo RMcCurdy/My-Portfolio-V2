@@ -12,11 +12,15 @@ const Navbar = () => {
     };
 
     return (
-        <div className='navbar-container'>
+        <div
+            style={{
+                backgroundColor:
+                    location.pathname === '/' ? 'var(--green)' : 'white',
+            }}
+            className='navbar-container'>
             <div>Home</div>
             <div>About</div>
             <div>Contact</div>
-            <div>Firm Registration</div>
         </div>
     );
 };

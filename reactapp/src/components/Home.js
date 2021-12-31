@@ -1,11 +1,15 @@
 import React from 'react';
 import RobertAnimation from './RobertAnimation';
+import HomePageMessage from './HomePageMessage';
 
 const Home = () => {
     return (
-        <div style={{ minHeight: '100vh' }}>
-            <RobertAnimation />
-        </div>
+        <>
+            <div className='home-container'>
+                <RobertAnimation />
+                <HomePageMessage />
+            </div>
+        </>
     );
 };
 
