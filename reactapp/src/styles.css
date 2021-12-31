@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
+    padding: 0 5rem;
     z-index: 2;
     top: 0%;
     left: 0%;
@@ -43,13 +43,11 @@ body {
 }
 
 .home-container {
-    min-height: 100vh;
+    min-height: 95vh;
     background-color: var(--green);
-    margin-top: 64px;
 }
 
 .home-title-container {
-    position: absolute;
     display: block;
 }
 
@@ -65,7 +63,6 @@ body {
     animation-name: rca;
     margin-left: 60%;
     margin-top: 15%;
-    overflow: hidden;
 }
 
 @keyframes rca {

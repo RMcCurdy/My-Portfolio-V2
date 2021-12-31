@@ -10,6 +10,7 @@ const RobertAnimation = () => {
     const imgArray = [robert, robert2, robert3, robert4, robert5, robert6];
 
     const [index, setIndex] = useState(0);
+    const [animationCount, setAnimationCount] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -18,15 +19,16 @@ const RobertAnimation = () => {
             } else {
                 setIndex(index + 1);
             }
+            setAnimationCount(animationCount + 1);
         }, 100);
         return () => clearInterval(interval);
-    }, [index]);
+    }, [index, animationCount]);
 
     return (
         <div className='robert-container-animation'>
             <img
                 style={{ width: '150px' }}
-                src={imgArray[index]}
+                src={animationCount >= 19 ? robert : imgArray[index]}
                 alt='walkingRobert'
             />
         </div>
