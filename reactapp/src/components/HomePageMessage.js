@@ -2,7 +2,7 @@ const HomePageMessage = () => {
     return (
         <div className='home-title-container'>
             <div className='home-title-font title-text-fade-in'>
-                Hey, I'm Robert
+                Hey, I'm Robert.
             </div>
             <div
                 style={{ marginTop: '0.5rem' }}
@@ -11,7 +11,7 @@ const HomePageMessage = () => {
             </div>
             <div className='home-title-font title-text-fade-in-secondary'>
                 {' '}
-                aspiring Web Developer
+                aspiring Web Developer.
             </div>
         </div>
     );

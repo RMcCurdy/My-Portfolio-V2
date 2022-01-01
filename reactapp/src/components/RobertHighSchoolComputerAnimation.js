@@ -16,24 +16,26 @@ const RobertHighSchoolComputerAnimation = () => {
         robertComp5,
         robertComp6,
         robertComp7,
+        robertComp7,
+        robertComp7,
     ];
 
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            if (index === 6) {
+            if (index === 8) {
                 setIndex(0);
             } else {
                 setIndex(index + 1);
             }
-        }, 100);
+        }, 200);
         return () => clearInterval(interval);
     }, [index]);
 
     return (
         <div className='robert-container-animation'>
-            <img src={imgArray[index]} alt='walkingRobert' />
+            <img className='robert-highschool-image' src={imgArray[index]} alt='walkingRobert' />
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import RobertAnimation from './RobertAnimation';
 import HomePageMessage from './HomePageMessage';
 import RobertHighSchoolComputerAnimation from './RobertHighSchoolComputerAnimation';
+import RobertHighSchoolMessage from './RobertHighSchoolMessage';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             </div>
             <div className='home-container'>
                 <RobertHighSchoolComputerAnimation />
+                <RobertHighSchoolMessage />
             </div>
         </>
     );

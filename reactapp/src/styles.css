@@ -68,6 +68,12 @@ body {
     margin-bottom: 64px;
 }
 
+.home-title-right-container {
+    display: block;
+    margin-left: 4rem;
+    margin-bottom: 64px;
+}
+
 .home-title-font {
     font-family: 'Rubik-L';
     font-size: 2.5rem;
@@ -84,6 +90,10 @@ body {
 
 .robert-image {
     width: 150px;
+}
+
+.robert-highschool-image {
+    width: 390px;
 }
 
 /* Hey, I'm Robert */
