@@ -54,7 +54,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
+    min-height: calc(100vh - 64px);
     background-color: var(--green);
     overflow: hidden;
 }
@@ -79,7 +79,8 @@ body {
     margin-bottom: 64px;
 }
 
-.title-text {
+.robert-image {
+    width: 150px;
 }
 
 /* Hey, I'm Robert */
@@ -106,6 +107,32 @@ body {
     animation-delay: 3.25s;
     animation-fill-mode: forwards;
     opacity: 0;
+}
+
+/* ========================================= */
+/* ===============MEDIA QUERY=============== */
+/* ========================================= */
+
+@media only screen and (max-width: 1000px) {
+    .home-container {
+        flex-direction: column;
+    }
+    .home-title-container {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .home-title-font {
+        font-size: 1.5rem;
+    }
+    .robert-image {
+        width: 125px;
+    }
+    .navbar-titles {
+        font-size: 1rem;
+        padding: 0 1.5rem;
+    }
 }
 
 /* ========================================= */

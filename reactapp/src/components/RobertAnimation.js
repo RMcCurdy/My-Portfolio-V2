@@ -27,7 +27,7 @@ const RobertAnimation = () => {
     return (
         <div className='robert-container-animation'>
             <img
-                style={{ width: '150px' }}
+                className='robert-image'
                 src={animationCount >= 25 ? robert : imgArray[index]}
                 alt='walkingRobert'
             />
