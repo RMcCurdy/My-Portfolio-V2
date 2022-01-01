@@ -18,9 +18,9 @@ const Navbar = () => {
                     location.pathname === '/' ? 'var(--green)' : 'white',
             }}
             className='navbar-container'>
-            <div>Home</div>
-            <div>About</div>
-            <div>Contact</div>
+            <div className='navbar-titles'>Home</div>
+            <div className='navbar-titles'>About</div>
+            <div className='navbar-titles'>Contact</div>
         </div>
     );
 };

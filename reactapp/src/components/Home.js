@@ -6,8 +6,8 @@ const Home = () => {
     return (
         <>
             <div className='home-container'>
-                <RobertAnimation />
                 <HomePageMessage />
+                <RobertAnimation />
             </div>
         </>
     );
