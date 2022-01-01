@@ -11,6 +11,9 @@ body {
 
 :root {
     --green: rgb(226, 240, 203);
+    --purple: rgb(224, 195, 252);
+    --blue: rgb(166, 193, 238);
+    --orange: rgb(255, 218, 193);
 }
 
 /* Variants of the Rubik font to be used in font-family style */
@@ -109,6 +112,30 @@ body {
     opacity: 0;
 }
 
+/* About Page */
+
+.about-container {
+    min-height: calc(100vh - 64px);
+    background-color: var(--purple);
+    overflow: hidden;
+}
+
+/* Contact Page */
+
+.contact-container {
+    min-height: calc(100vh - 64px);
+    background-color: var(--blue);
+    overflow: hidden;
+}
+
+/* Contact Page */
+
+.projects-container {
+    min-height: calc(100vh - 64px);
+    background-color: var(--orange);
+    overflow: hidden;
+}
+
 /* ========================================= */
 /* ===============MEDIA QUERY=============== */
 /* ========================================= */
@@ -131,7 +158,7 @@ body {
     }
     .navbar-titles {
         font-size: 1rem;
-        padding: 0 1.5rem;
+        padding: 0 1rem;
     }
 }
 
@@ -186,7 +213,7 @@ body {
 
 @keyframes rca {
     0% {
-        transform: translate(1000%, 0);
+        transform: translate(600%, 0);
     }
     100% {
         transform: translate(0%, 0);
@@ -194,7 +221,7 @@ body {
 }
 @-moz-keyframes rca {
     0% {
-        transform: translate(1000%, 0);
+        transform: translate(600%, 0);
     }
     100% {
         transform: translate(0%, 0);
@@ -202,7 +229,7 @@ body {
 }
 @-webkit-keyframes rca {
     0% {
-        transform: translate(1000%, 0);
+        transform: translate(600%, 0);
     }
     100% {
         transform: translate(0%, 0);
@@ -210,7 +237,7 @@ body {
 }
 @-o-keyframes rca {
     0% {
-        transform: translate(1000%, 0);
+        transform: translate(600%, 0);
     }
     100% {
         transform: translate(0%, 0);
@@ -218,7 +245,7 @@ body {
 }
 @-ms-keyframes rca {
     0% {
-        transform: translate(1000%, 0);
+        transform: translate(600%, 0);
     }
     100% {
         transform: translate(0%, 0);

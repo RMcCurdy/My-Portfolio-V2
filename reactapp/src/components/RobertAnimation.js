@@ -28,7 +28,7 @@ const RobertAnimation = () => {
         <div className='robert-container-animation'>
             <img
                 className='robert-image'
-                src={animationCount >= 25 ? robert : imgArray[index]}
+                src={animationCount >= 19 ? robert : imgArray[index]}
                 alt='walkingRobert'
             />
         </div>

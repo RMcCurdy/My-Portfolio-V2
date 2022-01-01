@@ -7,8 +7,11 @@ import Navbar from './components/Navbar';
 // Routes
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-// Pages used before signing in
+// Pages
 import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 import PageNotFound from './components/PageNotFound';
 
@@ -17,11 +20,13 @@ function App() {
         <AppState>
             <Router>
                 <Navbar />
-                <Home />
-                {/* <Routes>
+                <Routes>
                     <Route exact path='/' element={<Home />} />
+                    <Route exact path='/about' element={<About />} />
+                    <Route exact path='/contact' element={<Contact />} />
+                    <Route exact path='/projects' element={<Projects />} />
                     <Route component={PageNotFound} />
-                </Routes> */}
+                </Routes>
             </Router>
         </AppState>
     );
