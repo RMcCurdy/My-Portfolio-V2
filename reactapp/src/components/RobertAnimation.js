@@ -20,7 +20,7 @@ const RobertAnimation = () => {
                 setIndex(index + 1);
             }
             setAnimationCount(animationCount + 1);
-        }, 100);
+        }, 75);
         return () => clearInterval(interval);
     }, [index, animationCount]);
 
@@ -28,7 +28,7 @@ const RobertAnimation = () => {
         <div className='robert-container-animation'>
             <img
                 style={{ width: '150px' }}
-                src={animationCount >= 19 ? robert : imgArray[index]}
+                src={animationCount >= 25 ? robert : imgArray[index]}
                 alt='walkingRobert'
             />
         </div>

@@ -56,6 +56,7 @@ body {
     align-items: center;
     min-height: 95vh;
     background-color: var(--green);
+    overflow: hidden;
 }
 
 .home-title-container {
@@ -107,6 +108,10 @@ body {
     opacity: 0;
 }
 
+/* ========================================= */
+/* ================KEYFRAMES================ */
+/* ========================================= */
+
 /* Text fade in */
 
 @keyframes fadeIn {
@@ -117,7 +122,6 @@ body {
         opacity: 1;
     }
 }
-
 @-moz-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -126,7 +130,6 @@ body {
         opacity: 1;
     }
 }
-
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -135,7 +138,6 @@ body {
         opacity: 1;
     }
 }
-
 @-o-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -144,7 +146,6 @@ body {
         opacity: 1;
     }
 }
-
 @-ms-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -157,46 +158,42 @@ body {
 /* Animation for robert character home page */
 
 @keyframes rca {
-    from {
-        margin-left: 100vw;
+    0% {
+        transform: translate(1000%, 0);
     }
-    to {
-        margin-left: 0;
+    100% {
+        transform: translate(0%, 0);
     }
 }
-
 @-moz-keyframes rca {
-    from {
-        margin-left: 100vw;
+    0% {
+        transform: translate(1000%, 0);
     }
-    to {
-        margin-left: 0;
+    100% {
+        transform: translate(0%, 0);
     }
 }
-
 @-webkit-keyframes rca {
-    from {
-        margin-left: 100vw;
+    0% {
+        transform: translate(1000%, 0);
     }
-    to {
-        margin-left: 0;
+    100% {
+        transform: translate(0%, 0);
     }
 }
-
 @-o-keyframes rca {
-    from {
-        margin-left: 100vw;
+    0% {
+        transform: translate(1000%, 0);
     }
-    to {
-        margin-left: 0;
+    100% {
+        transform: translate(0%, 0);
     }
 }
-
 @-ms-keyframes rca {
-    from {
-        margin-left: 100vw;
+    0% {
+        transform: translate(1000%, 0);
     }
-    to {
-        margin-left: 0;
+    100% {
+        transform: translate(0%, 0);
     }
 }
