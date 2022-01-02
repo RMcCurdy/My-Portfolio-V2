@@ -17,10 +17,10 @@ const Navbar = () => {
                 backgroundColor:
                     location.pathname === '/'
                         ? 'var(--green)'
-                        : location.pathname === '/about'
-                        ? 'var(--purple)'
-                        : location.pathname === '/contact'
+                        : location.pathname === '/skills'
                         ? 'var(--blue)'
+                        : location.pathname === '/contact'
+                        ? 'var(--purple)'
                         : location.pathname === '/projects'
                         ? 'var(--orange)'
                         : 'white',
@@ -33,8 +33,8 @@ const Navbar = () => {
             </div>
             <div
                 className='navbar-titles'
-                onClick={() => handleNavbarClick('about')}>
-                About
+                onClick={() => handleNavbarClick('skills')}>
+                Skills
             </div>
             <div
                 className='navbar-titles'

@@ -2,6 +2,10 @@ import RobertAnimation from './RobertAnimation';
 import HomePageMessage from './HomePageMessage';
 import RobertHighSchoolComputerAnimation from './RobertHighSchoolComputerAnimation';
 import RobertHighSchoolMessage from './RobertHighSchoolMessage';
+import RobertHighSchoolGraduateMessage from './RobertHighSchoolGraduateMessage';
+import RobertHighSchoolGraduateImage from './RobertHighSchoolGraduateImage';
+import RobertUniversityImage from './RobertUniversityImage';
+import RobertUniversityMessage from './RobertUniversityMessage';
 
 const Home = () => {
     return (
@@ -10,9 +14,17 @@ const Home = () => {
                 <HomePageMessage />
                 <RobertAnimation />
             </div>
-            <div className='home-container'>
+            <div className='other-home-containers'>
                 <RobertHighSchoolComputerAnimation />
                 <RobertHighSchoolMessage />
+            </div>
+            <div className='other-home-containers'>
+                <RobertHighSchoolGraduateMessage />
+                <RobertHighSchoolGraduateImage />
+            </div>
+            <div className='other-home-containers'>
+                <RobertUniversityImage />
+                <RobertUniversityMessage />
             </div>
         </>
     );

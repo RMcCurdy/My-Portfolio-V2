@@ -34,8 +34,12 @@ const RobertHighSchoolComputerAnimation = () => {
     }, [index]);
 
     return (
-        <div className='robert-container-animation'>
-            <img className='robert-highschool-image' src={imgArray[index]} alt='walkingRobert' />
+        <div className='other-image-container'>
+            <img
+                className='robert-highschool-image'
+                src={imgArray[index]}
+                alt='walkingRobert'
+            />
         </div>
     );
 };

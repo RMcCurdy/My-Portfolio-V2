@@ -11,7 +11,7 @@ body {
 
 :root {
     --green: rgb(226, 240, 203);
-    --purple: rgb(224, 195, 252);
+    --purple: rgb(237, 218, 255);
     --blue: rgb(166, 193, 238);
     --orange: rgb(255, 218, 193);
 }
@@ -62,6 +62,15 @@ body {
     overflow: hidden;
 }
 
+.other-home-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: var(--green);
+    overflow: hidden;
+}
+
 .home-title-container {
     display: block;
     margin-right: 4rem;
@@ -88,12 +97,24 @@ body {
     margin-bottom: 64px;
 }
 
+.other-image-container {
+    margin-bottom: 64px;
+}
+
 .robert-image {
     width: 150px;
 }
 
 .robert-highschool-image {
     width: 390px;
+}
+
+.robert-graduate-image {
+    width: 180px;
+}
+
+.robert-university-image {
+    width: 330px;
 }
 
 /* Hey, I'm Robert */
@@ -126,7 +147,7 @@ body {
 
 .about-container {
     min-height: calc(100vh - 64px);
-    background-color: var(--purple);
+    background-color: var(--blue);
     overflow: hidden;
 }
 
@@ -134,7 +155,7 @@ body {
 
 .contact-container {
     min-height: calc(100vh - 64px);
-    background-color: var(--blue);
+    background-color: var(--purple);
     overflow: hidden;
 }
 
