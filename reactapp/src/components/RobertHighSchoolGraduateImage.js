@@ -1,5 +1,5 @@
 // import { useEffect, useState } from 'react';
-import RobertGraduateImage from '../images/robertGraduate.png';
+import RobertGraduateImage from '../images/robertGraduate2.png';
 
 const RobertHighSchoolGraduateImage = () => {
     // const imgArray = [

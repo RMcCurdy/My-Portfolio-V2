@@ -18,11 +18,11 @@ const Home = () => {
                 <RobertHighSchoolComputerAnimation />
                 <RobertHighSchoolMessage />
             </div>
-            <div className='other-home-containers'>
+            <div className='other-home-containers specific-home-container-column-reverse'>
                 <RobertHighSchoolGraduateMessage />
                 <RobertHighSchoolGraduateImage />
             </div>
-            <div className='other-home-containers'>
+            <div className='bottom-home-containers'>
                 <RobertUniversityImage />
                 <RobertUniversityMessage />
             </div>

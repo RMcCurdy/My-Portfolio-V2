@@ -71,6 +71,16 @@ body {
     overflow: hidden;
 }
 
+.bottom-home-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: var(--green);
+    overflow: hidden;
+    padding-bottom: 10vh;
+}
+
 .home-title-container {
     display: block;
     margin-right: 4rem;
@@ -120,12 +130,12 @@ body {
 /* Hey, I'm Robert */
 
 .title-text-fade-in {
-    animation: fadeIn 1s linear;
-    -webkit-animation: fadeIn 1s linear;
-    -moz-animation: fadeIn 1s linear;
-    -o-animation: fadeIn 1s linear;
-    -ms-animation: fadeIn 1s linear;
-    animation-delay: 2.25s;
+    animation: fadeIn 0.75s linear;
+    -webkit-animation: fadeIn 0.75s linear;
+    -moz-animation: fadeIn 0.75s linear;
+    -o-animation: fadeIn 0.75s linear;
+    -ms-animation: fadeIn 0.75s linear;
+    animation-delay: 2.1s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -133,12 +143,12 @@ body {
 /* University Student and aspiring Web Developer */
 
 .title-text-fade-in-secondary {
-    animation: fadeIn 1s linear;
-    -webkit-animation: fadeIn 1s linear;
-    -moz-animation: fadeIn 1s linear;
-    -o-animation: fadeIn 1s linear;
-    -ms-animation: fadeIn 1s linear;
-    animation-delay: 3.25s;
+    animation: fadeIn 0.75s linear;
+    -webkit-animation: fadeIn 0.75s linear;
+    -moz-animation: fadeIn 0.75s linear;
+    -o-animation: fadeIn 0.75s linear;
+    -ms-animation: fadeIn 0.75s linear;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -175,8 +185,27 @@ body {
     .home-container {
         flex-direction: column;
     }
+    .other-home-containers {
+        flex-direction: column;
+    }
+    .specific-home-container-column-reverse {
+        flex-direction: column-reverse;
+    }
+    .bottom-home-containers {
+        flex-direction: column;
+    }
     .home-title-container {
         margin-right: 0;
+    }
+    .home-title-right-container {
+        margin-left: 0;
+    }
+    .other-home-containers {
+        min-height: 80vh;
+    }
+
+    .bottom-home-containers {
+        min-height: 80vh;
     }
 }
 
@@ -186,6 +215,16 @@ body {
     }
     .robert-image {
         width: 125px;
+    }
+    .robert-highschool-image {
+        width: 270px;
+    }
+    .robert-graduate-image {
+        width: 150px;
+    }
+
+    .robert-university-image {
+        width: 270px;
     }
     .navbar-titles {
         font-size: 1rem;
