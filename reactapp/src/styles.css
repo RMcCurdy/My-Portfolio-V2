@@ -14,6 +14,8 @@ body {
     --purple: rgb(237, 218, 255);
     --blue: rgb(166, 193, 238);
     --orange: rgb(255, 218, 193);
+    --orange-dark: rgb(255, 194, 153);
+    --orange-darker: rgb(255, 172, 117);
 }
 
 /* Variants of the Rubik font to be used in font-family style */
@@ -65,7 +67,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 70vh;
     background-color: var(--green);
     overflow: hidden;
 }
@@ -74,7 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 70vh;
     background-color: var(--green);
     overflow: hidden;
     padding-bottom: 10vh;
@@ -171,9 +173,28 @@ body {
 /* Contact Page */
 
 .projects-container {
+    display: flex;
+    justify-content: center;
     min-height: calc(100vh - 64px);
     background-color: var(--orange);
     overflow: hidden;
+}
+
+.projects-row-container {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+
+.project-item-container {
+    width: 30%;
+    height: 400px;
+    border: 3px solid var(--orange-darker);
+    border-radius: 10px;
+    background-color: var(--orange-dark);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 0 1rem;
 }
 
 /* ========================================= */

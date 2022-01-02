@@ -25,7 +25,7 @@ function App() {
                     <Route exact path='/skills' element={<About />} />
                     <Route exact path='/contact' element={<Contact />} />
                     <Route exact path='/projects' element={<Projects />} />
-                    <Route component={PageNotFound} />
+                    <Route element={<PageNotFound />} />
                 </Routes>
             </Router>
         </AppState>
