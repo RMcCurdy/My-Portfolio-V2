@@ -42,9 +42,8 @@ body {
 }
 
 .navbar-titles {
-    font-family: 'Rubik-S';
     font-size: 1.25rem;
-    padding: 0 2rem;
+    margin: 0 2rem;
 }
 
 .navbar-titles:hover {
