@@ -202,13 +202,13 @@ body {
     align-items: center;
 }
 
-.project-item-float {
+/* .project-item-float {
     transition: all 0.2s ease-in-out;
 }
 .project-item-float:hover {
     transform: scale(1.025);
     cursor: pointer;
-}
+} */
 
 .project-text-container {
     align-self: normal;
@@ -222,12 +222,26 @@ body {
 
 .project-description {
     font-family: 'Rubik';
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+}
+
+.project-links {
+    margin: 1rem 1rem 0 0;
+    font-family: 'Rubik-S';
+    text-decoration: underline;
+}
+
+.project-links {
+    cursor: pointer;
+}
+
+.project-links-container {
+    display: flex;
 }
 
 .bandwagon-logo {
     /* 340 original width */
-    width: 136px;
+    width: 102px;
 }
 
 .my-gh-logo {
@@ -242,12 +256,12 @@ body {
 
 .wait-less-logo {
     /* 330 original width */
-    width: 165px;
+    width: 132px;
 }
 
 .discord-bot-logo {
     /* 300 original width */
-    width: 150px;
+    width: 120px;
 }
 
 /* ========================================= */
