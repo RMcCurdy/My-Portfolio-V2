@@ -194,10 +194,41 @@ body {
     padding: 2rem;
 }
 
+.contact-socials:hover {
+    cursor: pointer;
+}
+
 .contact-socials-container {
     display: flex;
     justify-content: center;
 }
+
+.contact-socials-header {
+    margin: 5rem 1rem 0;
+    font-family: 'Rubik-S';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact-socials-email-header {
+    margin: 3rem 1rem 0;
+    font-family: 'Rubik-S';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact-socials-email {
+    margin: 2rem 0 5rem 0;
+    font-family: 'Rubik-L';
+    font-size: 1.5rem;
+    text-align: center;
+    /* text-decoration: underline; */
+    /* color: rgb(0, 81, 255); */
+}
+
+/* .contact-socials-email:hover {
+    cursor: pointer;
+} */
 
 /* Project Page */
 
@@ -263,7 +294,7 @@ body {
 
 .project-links-and-languages-container {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .project-logo-container {
@@ -364,6 +395,20 @@ body {
     }
     .skills-language-logo {
         width: 70px;
+    }
+    .contact-socials {
+        padding: 1.5rem;
+    }
+    .contact-socials-header {
+        font-size: 1.25rem;
+    }
+
+    .contact-socials-email-header {
+        font-size: 1.25rem;
+    }
+
+    .contact-socials-email {
+        font-size: 1.25rem;
     }
 }
 
