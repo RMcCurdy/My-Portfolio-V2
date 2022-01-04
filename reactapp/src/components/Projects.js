@@ -12,6 +12,7 @@ import CSharpLogo from '../images/CSharpLogo.png';
 import SQLLogo from '../images/SQLLogo.png';
 import AdobeXDLogo from '../images/AdobeXDLogo.png';
 import BalsamiqLogo from '../images/BalsamiqLogo.png';
+import NodeJSLogo from '../images/NodeJSLogo.png';
 
 const Projects = () => {
     return (
@@ -221,6 +222,13 @@ const Projects = () => {
                                         alt='css'
                                     />
                                 </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={NodeJSLogo}
+                                        alt='nodejs'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -306,12 +314,21 @@ const Projects = () => {
                                 }>
                                 GitHub
                             </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={JSLogo}
-                                    alt='javascript'
-                                />
+                            <div className='project-languages-container'>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={JSLogo}
+                                        alt='javascript'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={NodeJSLogo}
+                                        alt='nodejs'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
