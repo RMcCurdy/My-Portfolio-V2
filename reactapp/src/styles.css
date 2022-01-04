@@ -384,6 +384,20 @@ body {
     .projects-container {
         padding-top: 1rem;
     }
+    .project-links-and-languages-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .project-links {
+        margin-top: 0.25rem;
+        font-family: 'Rubik-S';
+        text-decoration: underline;
+    }
+    .language-logo {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+    }
 }
 
 /* ========================================= */

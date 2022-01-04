@@ -31,57 +31,61 @@ const Projects = () => {
                             outcome of games.
                         </div>
                         <div className='project-links-and-languages-container'>
-                            <div
-                                className='project-links'
-                                onClick={() =>
-                                    window.open(
-                                        'https://github.com/RMcCurdy/Bandwagon',
-                                        '_blank',
-                                    )
-                                }>
-                                GitHub
+                            <div className='project-links-container'>
+                                <div
+                                    className='project-links'
+                                    onClick={() =>
+                                        window.open(
+                                            'https://github.com/RMcCurdy/Bandwagon',
+                                            '_blank',
+                                        )
+                                    }>
+                                    GitHub
+                                </div>
                             </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={ReactLogo}
-                                    alt='react'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={JSLogo}
-                                    alt='javascript'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={HTMLLogo}
-                                    alt='html'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={CSSLogo}
-                                    alt='css'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={SQLLogo}
-                                    alt='sql'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={CSharpLogo}
-                                    alt='csharp'
-                                />
+                            <div className='project-languages-container'>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={ReactLogo}
+                                        alt='react'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={JSLogo}
+                                        alt='javascript'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={HTMLLogo}
+                                        alt='html'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={CSSLogo}
+                                        alt='css'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={SQLLogo}
+                                        alt='sql'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={CSharpLogo}
+                                        alt='csharp'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -117,33 +121,35 @@ const Projects = () => {
                                     Website
                                 </div>
                             </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={ReactLogo}
-                                    alt='react'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={JSLogo}
-                                    alt='javascript'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={HTMLLogo}
-                                    alt='html'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={CSSLogo}
-                                    alt='css'
-                                />
+                            <div className='project-languages-container'>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={ReactLogo}
+                                        alt='react'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={JSLogo}
+                                        alt='javascript'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={HTMLLogo}
+                                        alt='html'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={CSSLogo}
+                                        alt='css'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -186,33 +192,35 @@ const Projects = () => {
                                     Website
                                 </div>
                             </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={ReactLogo}
-                                    alt='react'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={JSLogo}
-                                    alt='javascript'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={HTMLLogo}
-                                    alt='html'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={CSSLogo}
-                                    alt='css'
-                                />
+                            <div className='project-languages-container'>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={ReactLogo}
+                                        alt='react'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={JSLogo}
+                                        alt='javascript'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={HTMLLogo}
+                                        alt='html'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={CSSLogo}
+                                        alt='css'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -254,19 +262,21 @@ const Projects = () => {
                                     Website
                                 </div>
                             </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={AdobeXDLogo}
-                                    alt='adobexd'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={BalsamiqLogo}
-                                    alt='balsamiq'
-                                />
+                            <div className='project-languages-container'>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={AdobeXDLogo}
+                                        alt='adobexd'
+                                    />
+                                </div>
+                                <div className='project-logo-container'>
+                                    <img
+                                        className='language-logo'
+                                        src={BalsamiqLogo}
+                                        alt='balsamiq'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -301,13 +311,6 @@ const Projects = () => {
                                     className='language-logo'
                                     src={JSLogo}
                                     alt='javascript'
-                                />
-                            </div>
-                            <div className='project-logo-container'>
-                                <img
-                                    className='language-logo'
-                                    src={BalsamiqLogo}
-                                    alt='balsamiq'
                                 />
                             </div>
                         </div>
