@@ -12,28 +12,13 @@ const About = () => {
     return (
         <div className='skills-container'>
             <div
-                style={{ margin: '1rem' }}
-                className='skills-text-container-header'>
-                <div
-                    style={{ margin: '2rem' }}
-                    className='skills-text-content-header'>
-                    The main area of my expertise is in Front End development.
-                </div>
+                style={{ marginBottom: '2rem', marginTop: '2rem' }}
+                className='skills-text-content'>
+                The languages I'm most familiar with are JavaScript, HTML, and
+                CSS while working under the React framework.
             </div>
-            <div
-                style={{ marginBottom: '2rem' }}
-                className='skills-text-container'>
-                <div className='skills-text-content'>
-                    The languages I'm most familiar with
-                </div>
-                <div className='skills-text-content'>
-                    are JavaScript, HTML, and CSS while
-                </div>
-                <div className='skills-text-content'>
-                    working under the React framework.
-                </div>
-            </div>
-            <div style={{ display: 'flex', marginBottom: '5rem' }}>
+
+            <div style={{ display: 'flex', marginBottom: '4rem' }}>
                 <img
                     className='skills-language-logo logo-shadow'
                     src={ReactLogo}
@@ -51,20 +36,15 @@ const About = () => {
                 />
                 <img className='skills-language-logo' src={CSSLogo} alt='css' />
             </div>
+
             <div
                 style={{ marginBottom: '2rem' }}
-                className='skills-text-container'>
-                <div className='skills-text-content'>
-                    I have experience with SQL, MySQL,
-                </div>
-                <div className='skills-text-content'>
-                    C# and Node.js while working on group
-                </div>
-                <div className='skills-text-content'>
-                    projects and my own projects.
-                </div>
+                className='skills-text-content'>
+                I have experience with SQL, MySQL, C# and Node.js while working
+                on group projects and my own projects.
             </div>
-            <div style={{ display: 'flex', marginBottom: '5rem' }}>
+
+            <div style={{ display: 'flex', marginBottom: '4rem' }}>
                 <img className='skills-language-logo' src={SQLLogo} alt='sql' />
                 <img
                     className='skills-language-logo'
@@ -77,20 +57,15 @@ const About = () => {
                     alt='nodejs'
                 />
             </div>
+
             <div
                 style={{ marginBottom: '2rem' }}
-                className='skills-text-container'>
-                <div className='skills-text-content'>
-                    In multiple university classes, I have
-                </div>
-                <div className='skills-text-content'>
-                    used AdobeXD and Balsamiq to create
-                </div>
-                <div className='skills-text-content'>
-                    wireframing prototypes.
-                </div>
+                className='skills-text-content'>
+                In multiple university classes, I have used AdobeXD and Balsamiq
+                to create wireframing prototypes.
             </div>
-            <div style={{ display: 'flex', marginBottom: '5rem' }}>
+
+            <div style={{ display: 'flex', marginBottom: '4rem' }}>
                 <img
                     className='skills-language-logo'
                     src={AdobeXDLogo}

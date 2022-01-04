@@ -167,20 +167,9 @@ body {
 
 .skills-text-content {
     font-family: 'Rubik';
-    font-size: 2rem;
-}
-
-.skills-text-content-header {
-    font-family: 'Rubik-L';
-    font-size: 2rem;
-}
-
-.skills-text-container {
-    display: block;
-}
-
-.skills-text-container-header {
-    display: block;
+    font-size: 1.75rem;
+    width: 40%;
+    text-align: center;
 }
 
 .skills-language-logo {
@@ -198,6 +187,16 @@ body {
     min-height: calc(100vh - 64px);
     background-color: var(--purple);
     overflow: hidden;
+}
+
+.contact-socials {
+    width: 75px;
+    padding: 2rem;
+}
+
+.contact-socials-container {
+    display: flex;
+    justify-content: center;
 }
 
 /* Project Page */
@@ -313,7 +312,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .home-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .other-home-containers {
         flex-direction: column;
@@ -354,15 +353,17 @@ body {
         height: auto;
         align-self: center;
     }
-    .skills-text-container-header {
-        display: flex;
-        justify-content: center;
-    }
-    .skills-text-content-header {
-        font-size: 1.75rem;
-    }
     .skills-text-content {
         font-size: 1.5rem;
+    }
+    .skills-text-content {
+        width: 70%;
+    }
+    .skills-container {
+        padding-top: 1.5rem;
+    }
+    .skills-language-logo {
+        width: 70px;
     }
 }
 
@@ -437,6 +438,12 @@ body {
         margin-left: 0;
         margin-top: 0.5rem;
         margin-right: 0.5rem;
+    }
+    .skills-text-content {
+        width: 90%;
+    }
+    .skills-language-logo {
+        width: 50px;
     }
 }
 
