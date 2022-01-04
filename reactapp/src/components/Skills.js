@@ -41,7 +41,7 @@ const About = () => {
                 style={{ marginBottom: '2rem' }}
                 className='skills-text-content'>
                 I have experience with SQL, MySQL, C# and Node.js while working
-                on group projects and my own projects.
+                on group projects and personal projects.
             </div>
 
             <div style={{ display: 'flex', marginBottom: '4rem' }}>

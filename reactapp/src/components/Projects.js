@@ -166,7 +166,7 @@ const Projects = () => {
                     <div className='project-text-container'>
                         <div className='project-title'>SkipTheBooks</div>
                         <div className='project-description'>
-                            Submission for CalgaryHack2021. A web application
+                            Submission for CalgaryHacks2021. A web application
                             that provides students utilities for tracking their
                             school schedule and ordering takeout.
                         </div>

@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div className='contact-container'>
             <div className='contact-socials-email-header'>
-                You can get in contact with me by sending an email to:
+                To get in contact with me, please send an email to:
             </div>
             <div
                 // onClick={() => sendEmail('rwmccurdy@hotmail.com')}
