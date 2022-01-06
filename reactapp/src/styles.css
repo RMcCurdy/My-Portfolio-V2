@@ -58,9 +58,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 64px);
+    min-height: calc(85vh - 64px);
     background-color: var(--green);
     overflow: hidden;
+}
+
+.home-arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(5vh);
+    background-color: var(--green);
+    overflow: hidden;
+    padding-bottom: 5vh;
 }
 
 .other-home-containers {
@@ -128,6 +138,41 @@ body {
     width: 330px;
 }
 
+.home-arrow {
+    width: 56px;
+}
+
+.home-arrow-fade-in {
+    animation: fadeIn 1s linear;
+    -webkit-animation: fadeIn 1s linear;
+    -moz-animation: fadeIn 1s linear;
+    -o-animation: fadeIn 1s linear;
+    -ms-animation: fadeIn 1s linear;
+    animation-delay: 4.75s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.home-arrow-fade-in-visible {
+    animation: fadeIn 0.25s linear;
+    -webkit-animation: fadeIn 0.25s linear;
+    -moz-animation: fadeIn 0.25s linear;
+    -o-animation: fadeIn 0.25s linear;
+    -ms-animation: fadeIn 0.25s linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.home-arrow-fade-in-invisible {
+    animation: fadeOut 0.25s linear;
+    -webkit-animation: fadeOut 0.25s linear;
+    -moz-animation: fadeOut 0.25s linear;
+    -o-animation: fadeOut 0.25s linear;
+    -ms-animation: fadeOut 0.25s linear;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
 /* Hey, I'm Robert */
 
 .title-text-fade-in {
@@ -152,6 +197,10 @@ body {
     animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity: 0;
+}
+
+.home-page {
+    width: 70px;
 }
 
 /* Skills Page */
@@ -490,6 +539,9 @@ body {
     .skills-language-logo {
         width: 50px;
     }
+    .home-arrow {
+        width: 42px;
+    }
 }
 
 /* ========================================= */
@@ -536,6 +588,50 @@ body {
     }
     100% {
         opacity: 1;
+    }
+}
+
+/* Fade out */
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-ms-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
